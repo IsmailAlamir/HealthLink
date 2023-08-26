@@ -1,4 +1,4 @@
-package com.example.healthlink.Activites;
+package com.example.healthlink.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.healthlink.R;
 
-public class OnBordingActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_on_bording);
+        setContentView(R.layout.activity_main);
     }
 }
