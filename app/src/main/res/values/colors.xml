@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="turquoise">#28E3C4</color>
+    <color name="dark_turquoise">#0CC7AB</color>
     <color name="yellow">#F7C608</color>
     <color name="Light_Blue">#ECF5FC</color>
     <color name="gray">#AEAFB0</color>
