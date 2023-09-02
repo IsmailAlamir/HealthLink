@@ -77,9 +77,9 @@ public class OnBoardingActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
+
+
 
     private void setOnBoardingItems(){
 
@@ -121,6 +121,7 @@ public class OnBoardingActivity extends AppCompatActivity {
             }
 
         }
+        // for the button
         if (index == onBoardingAdapter.getItemCount()-1){
             startBtn.setText("Start");
         }else {
