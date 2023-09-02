@@ -121,7 +121,7 @@ public class OnBoardingActivity extends AppCompatActivity {
             }
 
         }
-        // for the button
+        // n
         if (index == onBoardingAdapter.getItemCount()-1){
             startBtn.setText("Start");
         }else {
