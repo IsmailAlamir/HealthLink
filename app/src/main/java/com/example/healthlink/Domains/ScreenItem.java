@@ -1,8 +1,7 @@
 package com.example.healthlink.Domains;
 
-import java.io.Serializable;
 
-public class ScreenItem implements Serializable {
+public class ScreenItem {
     String title,description;
     int screenImg;
 
