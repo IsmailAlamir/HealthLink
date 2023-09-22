@@ -1,4 +1,4 @@
-package com.example.healthlink.Activities;
+package com.example.healthlink;
 
 import androidx.appcompat.app.AppCompatActivity;
 
