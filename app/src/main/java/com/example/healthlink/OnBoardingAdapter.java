@@ -1,4 +1,4 @@
-package com.example.healthlink.Adapter;
+package com.example.healthlink;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,16 +9,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.healthlink.Domains.ScreenItem;
-import com.example.healthlink.R;
 
 import java.util.List;
 
 public class OnBoardingAdapter extends RecyclerView.Adapter<OnBoardingAdapter.OnBoardingAdapterViewHolder> {
 
-    private List<ScreenItem> onBoardingItems;
+    private List<OnBoardingItem> onBoardingItems;
 
-    public OnBoardingAdapter(List<ScreenItem> onBoardingItems) {
+    public OnBoardingAdapter(List<OnBoardingItem> onBoardingItems) {
         this.onBoardingItems = onBoardingItems;
     }
 
@@ -53,10 +51,10 @@ public class OnBoardingAdapter extends RecyclerView.Adapter<OnBoardingAdapter.On
             description = itemView.findViewById(R.id.tv_intro_description);
         }
 
-        void setOnBoardingData(ScreenItem screenItem){
-            title.setText(screenItem.getTitle());
-            description.setText(screenItem.getDescription());
-            screenImg.setImageResource(screenItem.getScreenImg());
+        void setOnBoardingData(OnBoardingItem onBoardingItem){
+            title.setText(onBoardingItem.getTitle());
+            description.setText(onBoardingItem.getDescription());
+            screenImg.setImageResource(onBoardingItem.getScreenImg());
 
             }
 

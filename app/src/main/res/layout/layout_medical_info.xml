@@ -1,0 +1,35 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Medical History -->
+    <EditText
+        android:id="@+id/editTextMedicalHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medical History (if any)"
+        android:inputType="textMultiLine"
+        />
+
+    <!-- Insurance Information -->
+    <EditText
+        android:id="@+id/editTextInsuranceInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insurance Information (if any)"
+        android:inputType="textMultiLine" />
+
+    <!-- Blood Type -->
+    <EditText
+        android:id="@+id/editTextBloodType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Type"
+        android:inputType="text"/>
+
+
+</LinearLayout>

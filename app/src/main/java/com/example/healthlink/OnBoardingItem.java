@@ -1,11 +1,11 @@
-package com.example.healthlink.Domains;
+package com.example.healthlink;
 
 
-public class ScreenItem {
+public class OnBoardingItem {
     String title,description;
     int screenImg;
 
-    public ScreenItem(String title, String description, int screenImg) {
+    public OnBoardingItem(String title, String description, int screenImg) {
         this.title = title;
         this.description = description;
         this.screenImg = screenImg;
