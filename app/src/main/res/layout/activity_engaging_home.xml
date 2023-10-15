@@ -109,7 +109,7 @@
 
 
                             <androidx.constraintlayout.widget.ConstraintLayout
-                                android:id="@+id/constraintLayout"
+                                android:id="@+id/cl_upcoming_consultation"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:layout_gravity="center_horizontal"
@@ -141,7 +141,7 @@
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+                                app:layout_constraintTop_toBottomOf="@+id/cl_upcoming_consultation" />
 
                             <TextView
                                 android:id="@+id/textView4"
@@ -186,7 +186,7 @@
 
 
                         <androidx.constraintlayout.widget.ConstraintLayout
-                            android:id="@+id/constraintLayout"
+                            android:id="@+id/cl_Medical_history"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
@@ -218,7 +218,7 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+                            app:layout_constraintTop_toBottomOf="@+id/cl_Medical_history" />
 
                         <TextView
                             android:id="@+id/textView6"
