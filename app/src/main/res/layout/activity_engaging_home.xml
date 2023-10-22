@@ -244,7 +244,18 @@
 
     </ScrollView>
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        android:background="@color/white"
+        app:menu="@menu/bottom_navigation_menu"
+        app:labelVisibilityMode="labeled"
+        />
 
+
+    <!--
         <com.google.android.material.bottomappbar.BottomAppBar
             app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
             app:layout_constraintEnd_toEndOf="parent"
@@ -361,7 +372,7 @@
             </LinearLayout>
 
         </com.google.android.material.bottomappbar.BottomAppBar>
-
+-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
