@@ -31,6 +31,7 @@ public class EngagingHomeActivity extends AppCompatActivity {
         setUserName();
     }
 
+
     private void setUserName() {
         name= findViewById(R.id.tv_name);
         name.setText(user.firstName);
